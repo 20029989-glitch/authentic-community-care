@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Authentic Community Care | NDIS Disability Support, NSW</title>
+<meta name="description" content="Authentic Community Care provides person-centred NDIS disability supports in NSW: personal care, respite, community participation, life skills, transport and more.">
+<style>
+:root{--bg:#fbfaf7;--fg:#1d2a27;--muted:#4d5d59;--card:#ffffff;--accent:#0b6e5e;--accent-fg:#ffffff;--soft:#e6f1ee;--border:#d5dedb;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#121917;--fg:#e8efed;--muted:#a9b8b4;--card:#1a2421;--accent:#4fc3ab;--accent-fg:#0c1512;--soft:#1f2e2a;--border:#2c3a36;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#121917;--fg:#e8efed;--muted:#a9b8b4;--card:#1a2421;--accent:#4fc3ab;--accent-fg:#0c1512;--soft:#1f2e2a;--border:#2c3a36;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.65 system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+.skip{position:absolute;left:-999px;top:0;background:var(--accent);color:var(--accent-fg);padding:10px 14px;z-index:20}
+.skip:focus{left:8px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{position:sticky;top:env(safe-area-inset-top,0px);background:var(--bg);border-bottom:1px solid var(--border);z-index:10}
+.bar{display:flex;align-items:center;justify-content:space-between;gap:16px;padding:12px 20px;max-width:1040px;margin:0 auto;flex-wrap:wrap}
+.brand{font-weight:700;font-size:1.05rem;color:var(--fg);text-decoration:none}
+.brand span{color:var(--accent)}
+nav a{margin-left:18px;color:var(--fg);text-decoration:none;font-size:.95rem}
+nav a:hover{color:var(--accent);text-decoration:underline}
+.hero{padding:64px 0 48px}
+.hero h1{font-size:clamp(2rem,5vw,3.1rem);line-height:1.15;margin:0 0 16px;max-width:18ch}
+.hero p{font-size:1.15rem;color:var(--muted);max-width:56ch;margin:0 0 26px}
+.btn{display:inline-block;background:var(--accent);color:var(--accent-fg);padding:13px 24px;border-radius:10px;font-weight:700;text-decoration:none;margin:0 10px 10px 0}
+.btn.alt{background:transparent;color:var(--accent);border:2px solid var(--accent)}
+.pill{display:inline-block;background:var(--soft);color:var(--accent);font-weight:600;font-size:.88rem;padding:5px 12px;border-radius:99px;margin-bottom:18px}
+section{padding:44px 0}
+section.tint{background:var(--soft)}
+h2{font-size:1.7rem;margin:0 0 8px}
+.lead{color:var(--muted);margin:0 0 26px;max-width:62ch}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:16px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+.card h3{margin:0 0 6px;font-size:1.08rem}
+.card p{margin:0;color:var(--muted);font-size:.97rem}
+ol.steps{list-style:none;counter-reset:s;padding:0;margin:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px}
+ol.steps li{counter-increment:s;background:var(--card);border:1px solid var(--border);border-radius:14px;padding:20px}
+ol.steps li::before{content:counter(s);display:inline-flex;width:34px;height:34px;border-radius:50%;background:var(--accent);color:var(--accent-fg);font-weight:700;align-items:center;justify-content:center;margin-bottom:10px}
+ol.steps b{display:block;margin-bottom:4px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
+ul.tick{padding:0;margin:0;list-style:none}
+ul.tick li{padding-left:28px;position:relative;margin-bottom:10px}
+ul.tick li::before{content:"\2713";position:absolute;left:0;color:var(--accent);font-weight:700}
+.contact dl{margin:0}
+.contact dt{font-weight:700;margin-top:12px}
+.contact dd{margin:2px 0 0;color:var(--muted)}
+footer{border-top:1px solid var(--border);padding:28px 0 36px;font-size:.9rem;color:var(--muted)}
+footer p{margin:0 0 8px}
+details{background:var(--card);border:1px solid var(--border);border-radius:12px;margin-bottom:10px;padding:0 18px}
+summary{cursor:pointer;font-weight:600;padding:16px 0;list-style:none}
+summary::-webkit-details-marker{display:none}
+summary::after{content:'+';float:right;color:var(--accent);font-size:1.4rem;line-height:1}
+details[open] summary::after{content:'\2212'}
+details p{margin:0 0 16px;color:var(--muted)}
+.easy{max-width:760px;font-size:1.25rem;line-height:1.8}
+.easy h3{font-size:1.4rem;margin:26px 0 8px}
+.easy ul.er{list-style:none;padding:0}
+.easy ul.er li{margin-bottom:10px}
+.easy .ic{font-size:1.7rem;margin-right:10px}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type='application/ld+json'>{"@context":"https://schema.org","@type":"LocalBusiness","name":"Authentic Community Care Pty Ltd","description":"NDIS registered disability support provider in Newcastle, NSW","taxID":"78669256606","address":{"@type":"PostalAddress","addressLocality":"Adamstown","addressRegion":"NSW","postalCode":"2289","addressCountry":"AU"},"areaServed":"Newcastle and the Hunter, NSW"}</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header>
+<div class="bar">
+<a class="brand" href="#top">Authentic <span>Community Care</span></a>
+<nav aria-label="Main"><a href="#services">Services</a><a href="#how">Getting started</a><a href='#about'>About</a><a href='#referrals'>Referrals</a><a href='#faq'>FAQ</a><a href='#easy-read'>Easy Read</a><a href='#contact'>Contact</a></nav>
+</div>
+</header>
+<main id="main">
+<div class="hero" id="top"><div class="wrap">
+<span class="pill">Registered NDIS provider</span>
+<h1>Support that respects who you are.</h1>
+<p>Authentic Community Care provides person-centred disability supports across NSW. You choose the goals, the routine and the support workers who suit you. We make it happen, safely and respectfully.</p>
+<a class="btn" href="#contact">Make an enquiry</a><a class="btn alt" href="#services">See our services</a>
+</div></div>
+
+<section id="services"><div class="wrap">
+<h2>Our services</h2>
+<p class="lead">Supports are tailored to your NDIS plan and goals. Not sure what fits? Ask us and we’ll help you work it out.</p>
+<div class="grid">
+<div class="card"><h3>Personal care</h3><p>Respectful help with showering, dressing, grooming, meals and daily routines.</p></div>
+<div class="card"><h3>Support workers</h3><p>Reliable, trained workers matched to your needs, interests and preferences.</p></div>
+<div class="card"><h3>Respite care</h3><p>Short breaks that give families and carers time to rest while you are well supported.</p></div>
+<div class="card"><h3>Social support</h3><p>Join community activities, meet friends and enjoy the things you love.</p></div>
+<div class="card"><h3>Life skills</h3><p>Build independence with cooking, budgeting, travel training and household tasks.</p></div>
+<div class="card"><h3>Transport</h3><p>Safe travel to appointments, work, study, shopping and social outings.</p></div>
+<div class="card"><h3>Cleaning</h3><p>Help keeping your home clean, safe and comfortable.</p></div>
+<div class="card"><h3>Supported Independent Living</h3><p>Daily support so you can live in your own home with more confidence.</p></div>
+<div class="card"><h3>Support coordination</h3><p>Help to understand your plan, connect with providers and use your funding well.</p></div>
+<div class="card"><h3>Therapy</h3><p>Therapy supports that help you build skills and reach your goals.</p></div>
+</div>
+</div></section>
+
+<section id="how" class="tint"><div class="wrap">
+<h2>Getting started</h2>
+<p class="lead">Starting with a new provider should be simple. Here’s how it works.</p>
+<ol class="steps">
+<li><b>Get in touch</b>Tell us about the supports you’re looking for and where you live.</li>
+<li><b>Meet and plan</b>We talk through your goals, routines and preferences with you and your family.</li>
+<li><b>Agree on a service agreement</b>We put in writing what we’ll provide, when, and at what cost, in plain language.</li>
+<li><b>Start support</b>Your support team begins, and we check in regularly to make sure it’s working.</li>
+</ol>
+</div></section>
+
+<section id="about"><div class="wrap two">
+<div>
+<h2>About us</h2>
+<p>Authentic Community Care Pty Ltd is a disability support provider based in Adamstown, Newcastle NSW. We believe everyone has the right to make their own choices and live the life they want, and our job is to support that.</p>
+<p>We work with NDIS participants and their families, and we’re happy to talk through how your plan is managed and which of our supports fit.</p>
+</div>
+<div>
+<h2>What you can expect</h2>
+<ul class="tick">
+<li>Person-centred support built around your goals</li>
+<li>Respect for your choices, culture and privacy</li>
+<li>Compliance with the NDIS Code of Conduct and Practice Standards</li>
+<li>NDIS Worker Screening for our workers where required</li>
+<li>Clear service agreements and a simple way to raise concerns</li>
+</ul>
+</div>
+</div></section>
+
+<section id='referrals' class='tint'><div class='wrap two'>
+<div><h2>Referrals and funding</h2>
+<p>Anyone can refer: you, your family, a support coordinator, plan manager, Local Area Coordinator, GP or hospital discharge team. Self-referral is welcome.</p>
+<p>We’ll ask for your name and contact details, the supports you’re looking for, how your plan is managed, your suburb and when you’d like to start.</p>
+<p>We charge in line with the NDIS Pricing Arrangements and Price Limits, and your service agreement shows every cost before you sign.</p></div>
+<div><h2>For support coordinators</h2>
+<ul class='tick'><li>Clear, prompt replies to referrals</li><li>Honest advice on current availability</li><li>Regular updates on how supports are going</li><li>Accurate invoices that match your participant’s plan</li></ul></div>
+</div></section>
+
+<section id='faq'><div class='wrap'>
+<h2>Frequently asked questions</h2>
+<p class='lead'>Quick answers to the questions we hear most. If yours isn’t here, just ask.</p>
+<details><summary>Do I need to be an NDIS participant?</summary><p>Our supports are funded through NDIS plans. If you’re not a participant yet, we can point you to the NDIS or your Local Area Coordinator to help you apply.</p></details>
+<details><summary>Can I choose my support workers?</summary><p>Yes. Tell us what matters to you, such as gender, interests, language or personality, and we’ll do our best to match you. If it isn’t working, you can ask for a change.</p></details>
+<details><summary>How is my plan managed, and does it matter?</summary><p>Plans can be managed by you, by a plan manager, or by the NDIA. This affects how we invoice, so tell us when you enquire and we’ll explain what applies to you.</p></details>
+<details><summary>What is a service agreement?</summary><p>It’s a written agreement that sets out the supports we’ll deliver, when, how and at what cost, plus your rights and our cancellation terms. We explain it in plain language and you can take time to read it.</p></details>
+<details><summary>Can my family be involved?</summary><p>Yes, if you want them to be. You decide who we talk to and what we share.</p></details>
+<details><summary>Can I change provider later?</summary><p>Yes. It’s your plan and your choice, and you can change providers at any time.</p></details>
+<details><summary>What if I’m not happy with something?</summary><p>Tell us and we’ll work with you to put it right. You can also contact the NDIS Quality and Safeguards Commission on 1800 035 544. Raising a concern will never affect the support you receive.</p></details>
+<details><summary>Where do you work?</summary><p>We’re based in Adamstown and support people across Newcastle and the Hunter. Ask us about your suburb.</p></details>
+</div></section>
+
+<section id='easy-read' class='tint'><div class='wrap easy'>
+<h2>Easy Read</h2>
+<p>This part uses short, simple words.</p>
+<h3>Who we are</h3>
+<p>We are Authentic Community Care. We help people with disability. We work in Newcastle and the Hunter.</p>
+<h3>What we can do</h3>
+<ul class='er'><li><span class='ic' aria-hidden='true'>🏠</span>Help you at home</li><li><span class='ic' aria-hidden='true'>🚌</span>Take you to places</li><li><span class='ic' aria-hidden='true'>🤝</span>Help you meet people</li><li><span class='ic' aria-hidden='true'>🍳</span>Help you learn new skills</li><li><span class='ic' aria-hidden='true'>☕</span>Give your family a break</li></ul>
+<h3>How to start</h3>
+<ol><li>Call or email us.</li><li>We talk about what you want.</li><li>We write the plan together.</li><li>Your support starts.</li></ol>
+<h3>If you are not happy</h3>
+<p>Tell us. We will listen. You can also call the NDIS Commission on 1800 035 544.</p>
+<p>You are in charge. You can say no. You can change your mind.</p>
+</div></section>
+
+<section id='team'><div class='wrap two'>
+<div><h2>Work with us</h2>
+<p>We’re keen to meet caring, reliable people who want to make a difference. Experience in disability or aged care, a Certificate III in Individual Support, First Aid and an NDIS Worker Screening Check are all welcome. Email us a short note and your resume.</p></div>
+<div><h2>Your information</h2>
+<p>We collect only what we need to provide your support, keep it secure, and share it only with your consent or where the law requires. You can ask to see or correct your information at any time.</p></div>
+</div></section>
+
+<section id="contact" class="tint"><div class="wrap two contact">
+<div>
+<h2>Contact us</h2>
+<p class="lead">Call or email to ask a question or start a conversation. There’s no obligation.</p>
+<dl>
+<dt>Phone</dt><dd id="c-phone">Phone number coming soon</dd>
+<dt>Email</dt><dd id="c-email">Email address coming soon</dd>
+<dt>Based in</dt><dd>Adamstown, Newcastle NSW 2289</dd>
+<dt>Areas we support</dt><dd>Newcastle and the Hunter. Ask us about your suburb.</dd>
+</dl>
+</div>
+<div>
+<h2>Feedback and complaints</h2>
+<p>We want to hear from you. If something isn’t right, tell us and we’ll work to fix it. You can also contact the NDIS Quality and Safeguards Commission on 1800 035 544.</p>
+</div>
+</div></section>
+</main>
+<footer><div class="wrap">
+<p><strong>Authentic Community Care Pty Ltd</strong> · ABN 78 669 256 606</p>
+<p>We acknowledge the Traditional Custodians of the lands on which we work and pay respect to Elders past and present.</p>
+<p>We want this website to work for everyone and aim to meet WCAG 2.2 AA. If you have trouble using it, contact us and we’ll help.</p>
+<p>This website gives general information only and isn’t a substitute for advice about your NDIS plan.</p>
+</div></footer>
+<script>
+/* Add your real details here and republish */
+var CONTACT={phone:"0466 240 293",email:"sapanabr59@gmail.com"};
+if(CONTACT.phone){var p=document.getElementById("c-phone");p.textContent="";var a=document.createElement("a");a.href="tel:"+CONTACT.phone.replace(/\s/g,"");a.textContent=CONTACT.phone;p.appendChild(a)}
+if(CONTACT.email){var e=document.getElementById("c-email");e.textContent="";var b=document.createElement("a");b.href="mailto:"+CONTACT.email;b.textContent=CONTACT.email;e.appendChild(b)}
+</script>
+</body>
+</html>
